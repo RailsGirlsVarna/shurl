@@ -4,4 +4,6 @@
 - gitflow
 - rebase
 
-another happy change for testing rebase with feature branch
+## Rspec testing
+- rake db:create RAILS_ENV=test
+- rake db:migrate RAILS_ENV=test
