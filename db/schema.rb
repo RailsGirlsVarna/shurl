@@ -10,8 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180705234052) do
 
+ActiveRecord::Schema.define(version: 20180705234052) do
   create_table "short_urls", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.text "original_url"
     t.string "short_url"
@@ -19,5 +19,4 @@ ActiveRecord::Schema.define(version: 20180705234052) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-
 end
